@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zodiac Quiz</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form class="quiz-form" method="post">
+  <header class="header">
+    <h1>Zodiac Quiz</h1>
+    <main class="container">
+        <section>
+          <ul>
+            <li class="resize">Question:
+              <span class="questionNumber">0</span>/5
+            </li>
+            <li class="resize">Score:
+              <span class="score">0</span>
+            </li>
+          </ul>
+        </section>
+        </header>
+        <section class="mainBox">
+          <section>
+            <a href="index.html">
+              <img class="gif" src="images/hororscope.gif" alt="Hororscope gif"/>
+            </a>
+          </section>
+          <section class="startQuiz box">
+            <button type="button" class="startButton button">Start</button>
+          </section>
+          <section class="questionBox box altBox">
+          </section>
+          <section class="response box altBox"></section>
+          <section class="final box altBox"></section>
+        </section>
+      </main>
+  
+  
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
